@@ -1,0 +1,40 @@
+$shopkeep-light-blue: #00bbe1;
+$shopkeep-light-red: #f64d54;
+
+.button {
+  background: $shopkeep-light-blue;
+  color: #fff;
+  border: 1px solid #0000;
+  border-radius: 4px;
+  padding: 0.5em 2em;
+
+  &--danger {
+    background: $shopkeep-light-red;
+
+    &:hover,
+    &:focus {
+      background: darken($shopkeep-light-red, 10);
+    }
+
+    &:disabled {
+      &,
+      &:hover,
+      &:focus {
+        background: $shopkeep-light-red;
+        cursor: not-allowed;
+        opacity: 0.3;
+      }
+    }
+  }
+
+  &.button-alt {
+    background: #fff;
+    border: 1px solid $shopkeep-light-blue;
+    color: $shopkeep-light-blue;
+
+    &:hover,
+    &:focus {
+      color: darken($shopkeep-light-blue, 10);
+    }
+  }
+}
