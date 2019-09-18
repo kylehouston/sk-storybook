@@ -1,6 +1,6 @@
 # ShopKeep Storybook Skeleton
 
-> Uses Storybook RC ^5.2.0-rc.6
+> Uses Storybook RC ^5.2.0-rc.6  
 > Useful article https://medium.com/storybookjs/component-story-format-66f4c32366df
 
 ## Included Official [Addons](https://storybook.js.org/addons/):
